@@ -1,0 +1,40 @@
+html{
+    background-color: rgb(155, 169, 196);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    background-color: #eee;
+    border:0.5px solid black;
+    width: 350px;
+    height: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+div{
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 70px;
+}
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: rgb(235, 220, 220) 0px 0px 10px 0px;
+    margin: 10px;
+    color:white;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+}
+#rock{
+    background-color: rgb(88, 172, 4);
+}
+#paper{
+    background-color: rgb(224, 105, 61);
+}
+#scissors{
+    background-color: rgb(223, 31, 70);
+}
